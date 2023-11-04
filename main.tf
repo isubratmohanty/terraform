@@ -1,6 +1,8 @@
 # Configure the AWS provider
 provider "aws" {
   region = "eu-west-1"
+  access_key = "YOUR_ACCESS_KEY"   #just testing no user created
+  secret_key = "YOUR_SECRET_KEY"   #jfor testing no user 
 }
 
 #create a VPC for all operation
